@@ -1,0 +1,98 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assets/anime-bg3.png");
+  background-size: cover;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  
+}
+
+.login-form label {
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.user-registration-form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpaperaccess.com/full/2314983.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .resetPassword-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT14_DyooE5sLLfhRZ1bdGyO8JzN-lITT6T_g&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .welcome-message{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 65px;
+  }

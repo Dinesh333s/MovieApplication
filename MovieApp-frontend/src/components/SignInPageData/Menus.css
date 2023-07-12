@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    margin-left: 20px; /* Add left margin */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #333;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .nav-button:focus{
+    font-weight: bold;
+  }
+  
